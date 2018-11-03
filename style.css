@@ -161,9 +161,9 @@ padding: 100px 0 165px 0;
 
 .servises_cards {
 	text-align: center;
-	display: grid;
-	grid-template-columns: auto auto auto auto; 
-	grid-column-gap: 20px;
+	display: flex; 
+	justify-content: space-between;
+	margin :20px;
 }
 .main_servises h1 {
 	text-align: center; 
